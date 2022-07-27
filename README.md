@@ -45,15 +45,16 @@ The bash script `get-dependencies.sh` will do this work for you.
 
 3. Make sure the top-level directory can be found by ASDF.
 
-  ```
-  $ ln -s . ~/quiclisp/local-projects/SICL
-  ```
+   ```
+   $ ln -s . ~/quiclisp/local-projects/SICL
+   ```
   
-  Run `sbcl`
+   Run `sbcl`
   
-  ```
-  (ql:register-local-projects)
-  ``` 
+   ```
+   (ql:register-local-projects)
+   ``` 
+   
 4. Compile the boot system as follows:
 
    ```lisp
