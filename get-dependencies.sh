@@ -13,6 +13,8 @@ https://github.com/s-expressionists/Clostrum
 https://github.com/s-expressionists/incless
 https://github.com/s-expressionists/ctype
 https://github.com/s-expressionists/Cyclosis
+https://github.com/robert-strandh/Stealth-mixin
+https://github.com/McCLIM/McCLIM
 "
 
 PROJECTS_DIRECTORY=${1:-"$HOME/quicklisp/local-projects/"}
